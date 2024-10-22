@@ -1,0 +1,150 @@
+header {
+    font-weight:bold;
+    font-size:35px;
+    position:fixed;
+    left: 43.5%;
+
+}
+
+subheader {
+    font-weight:normal;
+    font-size:20px;
+    text-align:center;
+    position:fixed;
+    left: 40%;
+    top:15%;
+    font-style:italic;
+}
+
+body {
+    background-color:#386994;
+}
+
+main > h3 {
+    font-size:25px;
+    text-align: center;
+    padding-top: 35%;
+
+}
+
+.favoriteplaceimg {
+    float: left;
+    width: 473px;
+    height: 473px;
+}
+
+.favoriteshowimg {
+    width: 473px;
+    height: 473px;
+    margin-left:2px;
+
+}
+
+.favoritehobbyimg {
+    float: right;
+    width: 473px;
+    height: 473px;
+}
+
+.navigation {
+    text-align: center;
+    position: sticky;
+}
+
+.atlantaimg {
+    margin-left:300px;
+    height: 400px;
+    width:800px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.title {
+    text-align:center;
+    font-size:40px;
+}
+
+h4 {
+    border-style:dotted;
+    border-width:1px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.navigationsection {
+    float:left;
+    font-size: 22px;
+}
+
+a:hover {
+    background-color: #294965;
+}
+img {
+    height: 300px;  
+}
+
+.torontoimg1 {
+    height:500px;
+}
+
+.torontoimg2 {
+    height:500px;
+}
+
+@keyframes invert-filter-animation {
+    from {
+        filter: invert(0%);
+    }
+    
+    to {
+        filter: invert(100%);
+    }
+}
+
+img.torontoimg1 {
+    animation: invert-filter-animation 2s forwards;
+}
+
+@keyframes invert-filter-animation {
+    from {
+        filter: invert(0%);
+    }
+    
+    to {
+        filter: invert(100%);
+    }
+}
+
+img.torontoimg1 {
+    animation: invert-filter-animation 2s forwards;
+}
+
+@keyframes sepia-filter-animation {
+    from {
+        filter: sepia(0%);
+    }
+    
+    to {
+        filter: sepia(100%);
+    }
+}
+
+img.torontoimg2 {
+    animation: sepia-filter-animation 2s forwards;
+}
+
+.bodytext {
+    background-color:#294965;;
+    font-size: 22px;
+}
+
+.flstudioimg {
+    height: 200px;
+    width: 200px;
+    float:right;
+    border-width:1px;
+    border-style:dashed;
+    border-color:aliceblue;
+}
